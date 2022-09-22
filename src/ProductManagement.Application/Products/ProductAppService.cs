@@ -30,5 +30,5 @@ namespace ProductManagement.Products
 
             return new PagedResultDto<ProductDto>(count,ObjectMapper.Map<List<Product>, List<ProductDto>>(products));
         }
-    }//Object to object mapping 48
+    }
 }
